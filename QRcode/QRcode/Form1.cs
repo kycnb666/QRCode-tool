@@ -540,5 +540,10 @@ namespace QRcode
                 toolTip2.SetToolTip(pictureBox2, "没有图片可以复制");
             }
         }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/kycnb666/QRCode-tool");
+        }
     }
 }

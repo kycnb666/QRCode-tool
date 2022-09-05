@@ -90,6 +90,8 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.label16 = new System.Windows.Forms.Label();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -507,6 +509,8 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.tabPage3.Controls.Add(this.linkLabel5);
+            this.tabPage3.Controls.Add(this.label16);
             this.tabPage3.Controls.Add(this.groupBox1);
             this.tabPage3.Controls.Add(this.linkLabel4);
             this.tabPage3.Controls.Add(this.linkLabel3);
@@ -549,7 +553,7 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(196, 415);
+            this.linkLabel4.Location = new System.Drawing.Point(196, 393);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(119, 12);
             this.linkLabel4.TabIndex = 12;
@@ -560,7 +564,7 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(196, 394);
+            this.linkLabel3.Location = new System.Drawing.Point(196, 372);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(113, 12);
             this.linkLabel3.TabIndex = 11;
@@ -571,7 +575,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(195, 371);
+            this.linkLabel2.Location = new System.Drawing.Point(195, 349);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(179, 12);
             this.linkLabel2.TabIndex = 10;
@@ -583,7 +587,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.Location = new System.Drawing.Point(89, 408);
+            this.label14.Location = new System.Drawing.Point(89, 386);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(100, 21);
             this.label14.TabIndex = 9;
@@ -593,7 +597,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.Location = new System.Drawing.Point(79, 385);
+            this.label13.Location = new System.Drawing.Point(79, 363);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(110, 21);
             this.label13.TabIndex = 8;
@@ -603,7 +607,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.Location = new System.Drawing.Point(111, 364);
+            this.label12.Location = new System.Drawing.Point(111, 342);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(78, 21);
             this.label12.TabIndex = 7;
@@ -613,7 +617,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(182, 305);
+            this.label11.Location = new System.Drawing.Point(182, 292);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(192, 31);
             this.label11.TabIndex = 6;
@@ -788,6 +792,27 @@
             this.toolTip2.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip2.ToolTipTitle = "帮助";
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label16.Location = new System.Drawing.Point(79, 409);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(110, 21);
+            this.label16.TabIndex = 14;
+            this.label16.Text = "软件开源地址:";
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Location = new System.Drawing.Point(196, 416);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(191, 12);
+            this.linkLabel5.TabIndex = 15;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "github.com/kycnb666/QRCode-tool";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -911,6 +936,8 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.Label label16;
     }
 }
 
